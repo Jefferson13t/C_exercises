@@ -1,2 +1,2 @@
 # C_exercises
-Repository to store my exercise lists from my college
+Repository to store the exercise lists from my college.
