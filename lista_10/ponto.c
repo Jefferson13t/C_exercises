@@ -9,10 +9,12 @@ struct Ponto {
     float distancia(Ponto& p);
     void atribuir(float a, float b);
 };
+
 //questao 2
     float Ponto::distancia(Ponto& p){
         return sqrt(pow(this->x - p.x ,2) + pow(this->y - p.y ,2));
     } 
+
 //questao 3
     void Ponto::atribuir(float a, float b){
         this->x = a;
@@ -104,7 +106,6 @@ bool Retangulo::quadrado(){
 }
 
 //questao 13
-
 struct Circunferencia {
     Ponto centro;
     float raio;
